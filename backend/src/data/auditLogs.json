@@ -1,0 +1,123 @@
+[
+  {
+    "assetId": "AST-007",
+    "assetName": "Sewage Pump Station B",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Handover Certificate Generated & Approved",
+    "prevValue": "Handed Over",
+    "newValue": "Handed Over",
+    "id": "L-012",
+    "timestamp": "2026-06-25T03:53:17.155Z"
+  },
+  {
+    "assetId": "AST-007",
+    "assetName": "Sewage Pump Station B",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Handover Certificate Generated & Approved",
+    "prevValue": "Handed Over",
+    "newValue": "Handed Over",
+    "id": "L-011",
+    "timestamp": "2026-06-25T03:52:21.513Z"
+  },
+  {
+    "assetId": "AST-007",
+    "assetName": "Sewage Pump Station B",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Handover Certificate Generated & Approved",
+    "prevValue": "DLP Active",
+    "newValue": "Handed Over",
+    "id": "L-010",
+    "timestamp": "2026-06-25T03:45:04.213Z"
+  },
+  {
+    "assetId": "AST-005",
+    "assetName": "Metro Overpass Viaduct (Pillar 102-156)",
+    "defectId": "DEF-005",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Updated defect status",
+    "prevValue": "Closed",
+    "newValue": "Verified",
+    "id": "L-009",
+    "timestamp": "2026-06-25T03:44:46.570Z"
+  },
+  {
+    "assetId": "AST-005",
+    "assetName": "Metro Overpass Viaduct (Pillar 102-156)",
+    "defectId": "DEF-005",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Updated defect status",
+    "prevValue": "Verified",
+    "newValue": "Closed",
+    "id": "L-008",
+    "timestamp": "2026-06-25T03:44:43.065Z"
+  },
+  {
+    "assetId": "AST-001",
+    "assetName": "Admin Block Highrise Structure",
+    "defectId": "DEF-003",
+    "user": "System Admin",
+    "role": "Admin",
+    "action": "Updated defect status",
+    "prevValue": "Rectified",
+    "newValue": "Verified",
+    "id": "L-007",
+    "timestamp": "2026-06-25T03:44:39.990Z"
+  },
+  {
+    "user": "Sanjeev Kumar",
+    "role": "Contractor",
+    "action": "User session logout recorded",
+    "id": "L-006",
+    "timestamp": "2026-06-25T03:44:37.605Z"
+  },
+  {
+    "assetId": "AST-001",
+    "assetName": "Admin Block Highrise Structure",
+    "defectId": "DEF-001",
+    "user": "Sanjeev Kumar",
+    "role": "Contractor",
+    "action": "Updated defect status",
+    "prevValue": "In Progress",
+    "newValue": "Rectified",
+    "id": "L-005",
+    "timestamp": "2026-06-25T03:44:31.740Z"
+  },
+  {
+    "assetId": "AST-006",
+    "assetName": "Water Treatment Plant Unit-3",
+    "defectId": "DEF-006",
+    "user": "Sanjeev Kumar",
+    "role": "Contractor",
+    "action": "Updated defect status",
+    "prevValue": "Assigned",
+    "newValue": "In Progress",
+    "id": "L-004",
+    "timestamp": "2026-06-25T03:44:26.430Z"
+  },
+  {
+    "user": "Sanjeev Kumar",
+    "role": "Contractor",
+    "action": "User session login recorded",
+    "id": "L-003",
+    "timestamp": "2026-06-25T03:44:17.565Z"
+  },
+  {
+    "user": "Vikram Rao",
+    "role": "Engineer",
+    "action": "User session login recorded",
+    "id": "L-002",
+    "timestamp": "2026-06-25T03:44:14.821Z"
+  },
+  {
+    "user": "Amit Sharma",
+    "role": "Project Manager",
+    "action": "User session login recorded",
+    "id": "L-001",
+    "timestamp": "2026-06-25T03:44:04.775Z"
+  }
+]

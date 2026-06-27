@@ -1,0 +1,41 @@
+/* Custom App styles override. Cleared to prevent conflicts with Tailwind CSS layouts. */
+@media print {
+  /* Print-only CSS layout for Handover Certificates */
+  body * {
+    visibility: hidden;
+  }
+  .print-container, .print-container * {
+    visibility: visible;
+  }
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #handover-certificate {
+    visibility: visible !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    border: 3px double #1e293b !important;
+    box-shadow: none !important;
+    padding: 2.5rem !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

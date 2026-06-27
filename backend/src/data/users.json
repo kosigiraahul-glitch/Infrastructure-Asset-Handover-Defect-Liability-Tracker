@@ -1,0 +1,6 @@
+[
+  { "name": "Vikram Rao", "role": "Engineer", "username": "vikram.qc", "password": "password123" },
+  { "name": "Amit Sharma", "role": "Project Manager", "username": "amit.pm", "password": "password123" },
+  { "name": "Sanjeev Kumar", "role": "Contractor", "username": "sanjeev.lt", "password": "password123", "contractorCompany": "L&T Construction" },
+  { "name": "System Admin", "role": "Admin", "username": "admin", "password": "adminpassword" }
+]

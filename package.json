@@ -1,0 +1,15 @@
+{
+  "name": "dlp-tracker-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo containing frontend and backend for DLP Tracker",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend",
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "build:all": "npm run build --prefix frontend && npm run build --prefix backend",
+    "lint:all": "npm run lint --prefix frontend && npm run lint --prefix backend"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Final Handover Certified",
+    "message": "Asset Sewage Pump Station B has been certified and handed over successfully.",
+    "type": "success",
+    "id": "N-010",
+    "timestamp": "2026-06-25T03:53:17.157Z",
+    "read": false
+  },
+  {
+    "title": "Final Handover Certified",
+    "message": "Asset Sewage Pump Station B has been certified and handed over successfully.",
+    "type": "success",
+    "id": "N-009",
+    "timestamp": "2026-06-25T03:52:21.514Z",
+    "read": false
+  },
+  {
+    "title": "Final Handover Certified",
+    "message": "Asset Sewage Pump Station B has been certified and handed over successfully.",
+    "type": "success",
+    "id": "N-008",
+    "timestamp": "2026-06-25T03:45:04.215Z",
+    "read": false
+  },
+  {
+    "title": "Defect Status Updated",
+    "message": "Defect DEF-005 is now Verified.",
+    "type": "success",
+    "id": "N-007",
+    "timestamp": "2026-06-25T03:44:46.572Z",
+    "read": false
+  },
+  {
+    "title": "Defect Status Updated",
+    "message": "Defect DEF-005 is now Closed.",
+    "type": "success",
+    "id": "N-006",
+    "timestamp": "2026-06-25T03:44:43.068Z",
+    "read": false
+  },
+  {
+    "title": "Defect Status Updated",
+    "message": "Defect DEF-003 is now Verified.",
+    "type": "success",
+    "id": "N-005",
+    "timestamp": "2026-06-25T03:44:39.992Z",
+    "read": false
+  },
+  {
+    "title": "User Logout",
+    "message": "Sanjeev Kumar (Contractor) has logouted.",
+    "type": "info",
+    "id": "N-004",
+    "timestamp": "2026-06-25T03:44:37.608Z",
+    "read": false
+  },
+  {
+    "title": "Defect Status Updated",
+    "message": "Defect DEF-001 is now Rectified.",
+    "type": "info",
+    "id": "N-003",
+    "timestamp": "2026-06-25T03:44:31.743Z",
+    "read": false
+  },
+  {
+    "title": "Defect Status Updated",
+    "message": "Defect DEF-006 is now In Progress.",
+    "type": "info",
+    "id": "N-002",
+    "timestamp": "2026-06-25T03:44:26.432Z",
+    "read": false
+  },
+  {
+    "title": "User Login",
+    "message": "Sanjeev Kumar (Contractor) has logined.",
+    "type": "success",
+    "id": "N-001",
+    "timestamp": "2026-06-25T03:44:17.568Z",
+    "read": false
+  }
+]

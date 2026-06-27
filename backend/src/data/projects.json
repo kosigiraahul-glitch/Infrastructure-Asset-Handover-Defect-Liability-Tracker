@@ -1,0 +1,7 @@
+[
+  { "id": "PRJ-001", "name": "Avinash IT Tech Park", "client": "Avinash IT Developers", "location": "Hyderabad" },
+  { "id": "PRJ-002", "name": "Vijayawada Airport Expansion", "client": "AAI / Govt of India", "location": "Vijayawada" },
+  { "id": "PRJ-003", "name": "Smart City Water Grid", "client": "Visakhapatnam Municipality", "location": "Visakhapatnam" },
+  { "id": "PRJ-004", "name": "Financial District Utilities", "client": "TSIIC", "location": "Hyderabad" },
+  { "id": "PRJ-005", "name": "Metro Rail Line 2", "client": "HMRL", "location": "Hyderabad" }
+]

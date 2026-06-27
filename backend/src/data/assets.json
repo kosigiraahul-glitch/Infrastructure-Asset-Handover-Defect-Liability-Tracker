@@ -1,0 +1,116 @@
+[
+  {
+    "id": "AST-007",
+    "name": "Sewage Pump Station B",
+    "projectName": "Smart City Grid",
+    "location": "Sector 5, Phase 1",
+    "contractor": "L&T Construction",
+    "dlpStartDate": "2026-06-25T00:00:00.000Z",
+    "dlpEndDate": "2027-07-26T00:00:00.000Z",
+    "budget": 1200000,
+    "status": "Handed Over",
+    "progress": 0,
+    "healthScore": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=600&q=80"
+    ],
+    "imageUrl": "/uploads/asset-AST-007.png",
+    "image_url": "/uploads/asset-AST-007.png"
+  },
+  {
+    "id": "AST-006",
+    "name": "Water Treatment Plant Unit-3",
+    "projectName": "River Water Supply Project",
+    "location": "Zone 2, Industrial Area",
+    "contractor": "Tata Projects",
+    "dlpStartDate": "2026-06-01T00:00:00.000Z",
+    "dlpEndDate": "2028-03-23T00:00:00.000Z",
+    "budget": 58000000,
+    "status": "DLP Active",
+    "progress": 0,
+    "healthScore": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    "id": "AST-001",
+    "name": "Admin Block Highrise Structure",
+    "projectName": "Avinash IT Tech Park",
+    "location": "Sector 4, Gachibowli, Hyderabad",
+    "contractor": "L&T Construction",
+    "dlpStartDate": "2025-10-15T00:00:00.000Z",
+    "dlpEndDate": "2026-10-15T00:00:00.000Z",
+    "budget": 45000000,
+    "status": "DLP Active",
+    "progress": 65,
+    "healthScore": 92,
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    "id": "AST-002",
+    "name": "Runway Extension & Taxiway C",
+    "projectName": "Vijayawada Airport Expansion",
+    "location": "Vijayawada International Airport",
+    "contractor": "Afcons Infrastructure",
+    "dlpStartDate": "2026-05-20T00:00:00.000Z",
+    "dlpEndDate": "2027-05-20T00:00:00.000Z",
+    "budget": 128000000,
+    "status": "DLP Active",
+    "progress": 8,
+    "healthScore": 78,
+    "images": [
+      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    "id": "AST-003",
+    "name": "Water Treatment Plant (15 MLD)",
+    "projectName": "Smart City Water Grid",
+    "location": "Zone 5, Visakhapatnam",
+    "contractor": "Tata Projects",
+    "dlpStartDate": "2024-06-01T00:00:00.000Z",
+    "dlpEndDate": "2025-06-01T00:00:00.000Z",
+    "budget": 32000000,
+    "status": "DLP Completed",
+    "progress": 100,
+    "healthScore": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    "id": "AST-004",
+    "name": "District cooling piping loop",
+    "projectName": "Financial District Utilities",
+    "location": "Nanakramguda, Hyderabad",
+    "contractor": "L&T Construction",
+    "dlpStartDate": "2026-06-01T00:00:00.000Z",
+    "dlpEndDate": "2026-07-15T00:00:00.000Z",
+    "budget": 18500000,
+    "status": "DLP Active",
+    "progress": 95,
+    "healthScore": 88,
+    "images": [
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80"
+    ]
+  },
+  {
+    "id": "AST-005",
+    "name": "Metro Overpass Viaduct (Pillar 102-156)",
+    "projectName": "Metro Rail Line 2",
+    "location": "Rayadurgam Main Road",
+    "contractor": "L&T Construction",
+    "dlpStartDate": "2026-03-10T00:00:00.000Z",
+    "dlpEndDate": "2027-03-10T00:00:00.000Z",
+    "budget": 95000000,
+    "status": "DLP Active",
+    "progress": 27,
+    "healthScore": 85,
+    "images": [
+      "https://images.unsplash.com/photo-1547483238-f400e65ccd56?auto=format&fit=crop&w=600&q=80"
+    ]
+  }
+]

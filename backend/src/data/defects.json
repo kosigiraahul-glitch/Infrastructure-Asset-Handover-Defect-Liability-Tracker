@@ -1,0 +1,227 @@
+[
+  {
+    "id": "DEF-006",
+    "assetId": "AST-006",
+    "assetName": "Water Treatment Plant Unit-3",
+    "description": "few works are pending ",
+    "severity": "Medium",
+    "assignedContractor": "Tata Projects",
+    "dueDate": "2026-06-25T00:00:00.000Z",
+    "status": "In Progress",
+    "attachments": [],
+    "comments": [],
+    "activity": [
+      {
+        "id": "act-1782119548446-1",
+        "text": "Defect logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-22T09:12:28.446Z"
+      },
+      {
+        "id": "act-1782359036191",
+        "text": "Status changed from Open to Assigned by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-25T03:43:56.191Z"
+      },
+      {
+        "id": "act-1782359066428",
+        "text": "Status changed from Assigned to In Progress by Sanjeev Kumar",
+        "user": "Sanjeev Kumar",
+        "timestamp": "2026-06-25T03:44:26.428Z"
+      }
+    ]
+  },
+  {
+    "id": "DEF-001",
+    "assetId": "AST-001",
+    "assetName": "Admin Block Highrise Structure",
+    "description": "Minor hairline cracks identified on columns of Level 3 south wing corridor during regular check.",
+    "severity": "Medium",
+    "assignedContractor": "L&T Construction",
+    "dueDate": "2026-06-25T00:00:00.000Z",
+    "status": "Rectified",
+    "attachments": [],
+    "comments": [
+      {
+        "id": "c1",
+        "user": "Vikram Rao",
+        "role": "Engineer",
+        "text": "Visual inspection shows non-structural cracks. Plaster repair and epoxy grouting recommended.",
+        "timestamp": "2026-06-12T10:15:00.000Z"
+      },
+      {
+        "id": "c2",
+        "user": "Sanjeev Kumar",
+        "role": "Contractor",
+        "text": "Material and team scheduled. Grouting will begin this Wednesday.",
+        "timestamp": "2026-06-13T14:30:00.000Z"
+      }
+    ],
+    "activity": [
+      {
+        "id": "act-1",
+        "text": "Defect Logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-12T09:00:00.000Z"
+      },
+      {
+        "id": "act-2",
+        "text": "Assigned to Contractor L&T Construction",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-12T09:05:00.000Z"
+      },
+      {
+        "id": "act-3",
+        "text": "Status changed from Assigned to In Progress",
+        "user": "Sanjeev Kumar",
+        "timestamp": "2026-06-13T14:35:00.000Z"
+      },
+      {
+        "id": "act-1782359071738",
+        "text": "Status changed from In Progress to Rectified by Sanjeev Kumar",
+        "user": "Sanjeev Kumar",
+        "timestamp": "2026-06-25T03:44:31.738Z"
+      }
+    ]
+  },
+  {
+    "id": "DEF-002",
+    "assetId": "AST-002",
+    "assetName": "Runway Extension & Taxiway C",
+    "description": "Joint sealant displacement detected on Section C2 taxiway joint, potential water seepage risk.",
+    "severity": "High",
+    "assignedContractor": "Afcons Infrastructure",
+    "dueDate": "2026-06-20T00:00:00.000Z",
+    "status": "Assigned",
+    "attachments": [],
+    "comments": [
+      {
+        "id": "c3",
+        "user": "Vikram Rao",
+        "role": "Engineer",
+        "text": "Seep risk is high due to pre-monsoon rains starting soon. Re-seal urgently.",
+        "timestamp": "2026-06-15T11:00:00.000Z"
+      }
+    ],
+    "activity": [
+      {
+        "id": "act-4",
+        "text": "Defect Logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-15T10:45:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "DEF-003",
+    "assetId": "AST-001",
+    "assetName": "Admin Block Highrise Structure",
+    "description": "Basement sump pump automatic level sensor malfunction causing intermittent overflows.",
+    "severity": "Critical",
+    "assignedContractor": "L&T Construction",
+    "dueDate": "2026-06-18T00:00:00.000Z",
+    "status": "Verified",
+    "attachments": [],
+    "comments": [
+      {
+        "id": "c4",
+        "user": "Sanjeev Kumar",
+        "role": "Contractor",
+        "text": "Float switch and circuit board replaced. System tested and verified in manual & automatic modes.",
+        "timestamp": "2026-06-16T16:00:00.000Z"
+      }
+    ],
+    "activity": [
+      {
+        "id": "act-5",
+        "text": "Defect Logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-10T12:00:00.000Z"
+      },
+      {
+        "id": "act-6",
+        "text": "Status changed from In Progress to Rectified",
+        "user": "Sanjeev Kumar",
+        "timestamp": "2026-06-16T16:05:00.000Z"
+      },
+      {
+        "id": "act-1782359079987",
+        "text": "Status changed from Rectified to Verified by System Admin",
+        "user": "System Admin",
+        "timestamp": "2026-06-25T03:44:39.987Z"
+      }
+    ]
+  },
+  {
+    "id": "DEF-004",
+    "assetId": "AST-004",
+    "assetName": "District cooling piping loop",
+    "description": "Thermal insulation missing on the terminal 3 bypass joint valve hookups.",
+    "severity": "Low",
+    "assignedContractor": "L&T Construction",
+    "dueDate": "2026-07-02T00:00:00.000Z",
+    "status": "Open",
+    "attachments": [
+      "Screenshot 2026-06-17 095032.png|blob:http://localhost:5175/be97457e-9eca-42ed-b639-767878482274"
+    ],
+    "comments": [],
+    "activity": [
+      {
+        "id": "act-7",
+        "text": "Defect Logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-17T08:30:00.000Z"
+      },
+      {
+        "id": "act-1782119564026",
+        "text": "File attachment \"Screenshot 2026-06-17 095032.png|blob:http://localhost:5175/be97457e-9eca-42ed-b639-767878482274\" added by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-22T09:12:44.026Z"
+      }
+    ]
+  },
+  {
+    "id": "DEF-005",
+    "assetId": "AST-005",
+    "assetName": "Metro Overpass Viaduct (Pillar 102-156)",
+    "description": "Drainage pipe bracket dislodged at Pillar 124, pipe loose.",
+    "severity": "Medium",
+    "assignedContractor": "L&T Construction",
+    "dueDate": "2026-06-30T00:00:00.000Z",
+    "status": "Verified",
+    "attachments": [],
+    "comments": [],
+    "activity": [
+      {
+        "id": "act-8",
+        "text": "Defect Logged by Vikram Rao",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-05T09:00:00.000Z"
+      },
+      {
+        "id": "act-9",
+        "text": "Status changed from In Progress to Rectified",
+        "user": "Sanjeev Kumar",
+        "timestamp": "2026-06-08T17:00:00.000Z"
+      },
+      {
+        "id": "act-10",
+        "text": "Status changed from Rectified to Verified",
+        "user": "Vikram Rao",
+        "timestamp": "2026-06-10T11:00:00.000Z"
+      },
+      {
+        "id": "act-1782359083061",
+        "text": "Status changed from Verified to Closed by System Admin",
+        "user": "System Admin",
+        "timestamp": "2026-06-25T03:44:43.061Z"
+      },
+      {
+        "id": "act-1782359086567",
+        "text": "Status changed from Closed to Verified by System Admin",
+        "user": "System Admin",
+        "timestamp": "2026-06-25T03:44:46.567Z"
+      }
+    ]
+  }
+]
