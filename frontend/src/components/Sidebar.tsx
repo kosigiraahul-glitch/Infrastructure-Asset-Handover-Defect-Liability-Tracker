@@ -10,12 +10,13 @@ import {
   Award,
   ChevronRight,
   HardHat,
-  ShieldAlert
+  ShieldAlert,
+  X
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const Sidebar: React.FC = () => {
-  const { currentView, setCurrentView, setSelectedAssetId, currentUser } = useTracker();
+  const { currentView, setCurrentView, setSelectedAssetId, currentUser, mobileSidebarOpen, setMobileSidebarOpen } = useTracker();
 
   const allMenuItems = [
     { id: 'dashboard', name: 'Dashboard', icon: LayoutDashboard },
@@ -45,23 +46,36 @@ export const Sidebar: React.FC = () => {
   const handleNav = (viewId: ViewType) => {
     setSelectedAssetId(null);
     setCurrentView(viewId);
+    setMobileSidebarOpen(false);
   };
 
   return (
-    <aside className="w-72 bg-white dark:bg-darkbg-card border-r border-slate-200 dark:border-darkbg-border flex flex-col h-screen sticky top-0 z-30 shrink-0">
+    <aside className={`fixed inset-y-0 left-0 lg:relative w-72 bg-white dark:bg-darkbg-card border-r border-slate-200 dark:border-darkbg-border flex flex-col h-screen z-50 lg:z-30 shrink-0 transition-transform duration-300 ease-out transform ${
+      mobileSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
+    }`}>
       {/* Brand Logo Header */}
-      <div className="p-6 border-b border-slate-200 dark:border-darkbg-border flex items-center space-x-3">
-        <div className="bg-gradient-to-tr from-brand-600 to-indigo-600 p-2.5 rounded-xl text-white shadow-lg shadow-brand-500/20">
-          <HardHat size={22} className="animate-float" />
+      <div className="p-6 border-b border-slate-200 dark:border-darkbg-border flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <div className="bg-gradient-to-tr from-brand-600 to-indigo-600 p-2.5 rounded-xl text-white shadow-lg shadow-brand-500/20">
+            <HardHat size={22} className="animate-float" />
+          </div>
+          <div>
+            <h1 className="text-sm font-extrabold tracking-wider text-slate-800 dark:text-slate-100 uppercase">
+              AVINASH KANAPARTHI
+            </h1>
+            <p className="text-[10px] font-bold text-brand-600 dark:text-brand-400 tracking-widest uppercase">
+              INFRA PVT. LTD.
+            </p>
+          </div>
         </div>
-        <div>
-          <h1 className="text-sm font-extrabold tracking-wider text-slate-800 dark:text-slate-100 uppercase">
-            AVINASH KANAPARTHI
-          </h1>
-          <p className="text-[10px] font-bold text-brand-600 dark:text-brand-400 tracking-widest uppercase">
-            INFRA PVT. LTD.
-          </p>
-        </div>
+        {/* Mobile Close Button */}
+        <button 
+          onClick={() => setMobileSidebarOpen(false)}
+          className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-slate-650 lg:hidden"
+          aria-label="Close Sidebar"
+        >
+          <X size={18} />
+        </button>
       </div>
 
       {/* Navigation List */}

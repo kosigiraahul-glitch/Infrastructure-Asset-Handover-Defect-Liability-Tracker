@@ -450,7 +450,7 @@ export const AssetManager: React.FC = () => {
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-slate-400 dark:text-slate-500 mb-1">PROJECT NAME</label>
                     <input
@@ -488,7 +488,7 @@ export const AssetManager: React.FC = () => {
                   />
                 </div>
 
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
                     <label className="block text-slate-400 dark:text-slate-500 mb-1">BUDGET VALUE (INR)</label>
                     <input
@@ -618,7 +618,7 @@ export const AssetManager: React.FC = () => {
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-slate-400 dark:text-slate-500 mb-1">PROJECT NAME</label>
                     <input
@@ -654,7 +654,7 @@ export const AssetManager: React.FC = () => {
                   />
                 </div>
 
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   <div>
                     <label className="block text-slate-400 dark:text-slate-500 mb-1">BUDGET VALUE (INR)</label>
                     <input

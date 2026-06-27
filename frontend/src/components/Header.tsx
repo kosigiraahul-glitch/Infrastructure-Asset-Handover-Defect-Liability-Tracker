@@ -9,7 +9,8 @@ import {
   AlertCircle, 
   Info,
   ChevronDown,
-  LogOut
+  LogOut,
+  Menu
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -25,7 +26,8 @@ export const Header: React.FC = () => {
     markNotificationRead, 
     markAllNotificationsRead,
     setIsAuthenticated,
-    logSessionEvent
+    logSessionEvent,
+    setMobileSidebarOpen
   } = useTracker();
 
   const [showUserDropdown, setShowUserDropdown] = useState(false);
@@ -71,15 +73,24 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="h-20 bg-white/70 dark:bg-darkbg-card/70 backdrop-blur-md border-b border-slate-200 dark:border-darkbg-border flex items-center justify-between px-8 sticky top-0 z-20">
-      {/* Breadcrumbs */}
-      <div>
-        <h2 className="text-xl font-bold text-slate-800 dark:text-slate-100 flex items-center space-x-2">
-          <span>{getBreadcrumb()}</span>
-        </h2>
-        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-          Avinash Kanaparthi Infra Private Limited • Core Node
-        </p>
+    <header className="h-20 bg-white/70 dark:bg-darkbg-card/70 backdrop-blur-md border-b border-slate-200 dark:border-darkbg-border flex items-center justify-between px-4 sm:px-8 sticky top-0 z-20">
+      {/* Breadcrumbs & Mobile Menu Toggle */}
+      <div className="flex items-center space-x-3 min-w-0">
+        <button 
+          onClick={() => setMobileSidebarOpen(true)}
+          className="p-2 rounded-lg border border-slate-200 dark:border-darkbg-border bg-white dark:bg-slate-900/50 text-slate-550 dark:text-slate-450 lg:hidden hover:bg-slate-50 dark:hover:bg-slate-800 transition shrink-0"
+          aria-label="Open Sidebar"
+        >
+          <Menu size={18} />
+        </button>
+        <div className="min-w-0">
+          <h2 className="text-sm sm:text-base md:text-xl font-bold text-slate-800 dark:text-slate-100 flex items-center space-x-2 truncate">
+            <span>{getBreadcrumb()}</span>
+          </h2>
+          <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium truncate">
+            Avinash Kanaparthi Infra Private Limited • Core Node
+          </p>
+        </div>
       </div>
 
       {/* Control Actions */}

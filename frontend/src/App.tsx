@@ -14,7 +14,7 @@ import { Login } from './views/Login';
 import { AuditTrails } from './views/AuditTrails';
 
 const MainLayout: React.FC = () => {
-  const { currentView } = useTracker();
+  const { currentView, mobileSidebarOpen, setMobileSidebarOpen } = useTracker();
 
   const renderView = () => {
     switch (currentView) {
@@ -40,7 +40,15 @@ const MainLayout: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen w-screen bg-slate-50 dark:bg-darkbg text-slate-800 dark:text-slate-100 transition-colors duration-300 font-sans gradient-bg overflow-hidden">
+    <div className="flex h-screen w-screen bg-slate-50 dark:bg-darkbg text-slate-800 dark:text-slate-100 transition-colors duration-300 font-sans gradient-bg overflow-hidden relative">
+      {/* Mobile Sidebar Backdrop Overlay */}
+      {mobileSidebarOpen && (
+        <div 
+          onClick={() => setMobileSidebarOpen(false)}
+          className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-40 lg:hidden"
+        />
+      )}
+
       {/* Sidebar Navigation */}
       <Sidebar />
 

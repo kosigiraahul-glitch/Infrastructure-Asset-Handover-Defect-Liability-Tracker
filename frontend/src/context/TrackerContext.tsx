@@ -107,6 +107,8 @@ interface TrackerContextProps {
   setCurrentUser: (user: UserSession) => void;
   isAuthenticated: boolean;
   setIsAuthenticated: (val: boolean) => void;
+  mobileSidebarOpen: boolean;
+  setMobileSidebarOpen: (val: boolean) => void;
 
   // Data State
   assets: Asset[];
@@ -177,6 +179,7 @@ export const TrackerProvider: React.FC<{ children: React.ReactNode }> = ({ child
   // Navigation & User Session
   const [currentView, setCurrentView] = useState<ViewType>('dashboard');
   const [selectedAssetId, setSelectedAssetId] = useState<string | null>(null);
+  const [mobileSidebarOpen, setMobileSidebarOpen] = useState<boolean>(false);
   
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem('avinash_dark_mode');
@@ -471,6 +474,8 @@ export const TrackerProvider: React.FC<{ children: React.ReactNode }> = ({ child
       setCurrentUser,
       isAuthenticated,
       setIsAuthenticated,
+      mobileSidebarOpen,
+      setMobileSidebarOpen,
       assets,
       defects,
       auditLogs,

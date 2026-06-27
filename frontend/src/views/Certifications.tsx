@@ -92,11 +92,11 @@ export const Certifications: React.FC = () => {
     
     let x, y;
     if ('touches' in e) {
-      x = e.touches[0].clientX - rect.left;
-      y = e.touches[0].clientY - rect.top;
+      x = (e.touches[0].clientX - rect.left) * (canvas.width / rect.width);
+      y = (e.touches[0].clientY - rect.top) * (canvas.height / rect.height);
     } else {
-      x = e.clientX - rect.left;
-      y = e.clientY - rect.top;
+      x = (e.clientX - rect.left) * (canvas.width / rect.width);
+      y = (e.clientY - rect.top) * (canvas.height / rect.height);
     }
 
     ctx.beginPath();
@@ -113,11 +113,11 @@ export const Certifications: React.FC = () => {
     const rect = canvas.getBoundingClientRect();
     let x, y;
     if ('touches' in e) {
-      x = e.touches[0].clientX - rect.left;
-      y = e.touches[0].clientY - rect.top;
+      x = (e.touches[0].clientX - rect.left) * (canvas.width / rect.width);
+      y = (e.touches[0].clientY - rect.top) * (canvas.height / rect.height);
     } else {
-      x = e.clientX - rect.left;
-      y = e.clientY - rect.top;
+      x = (e.clientX - rect.left) * (canvas.width / rect.width);
+      y = (e.clientY - rect.top) * (canvas.height / rect.height);
     }
 
     ctx.lineTo(x, y);

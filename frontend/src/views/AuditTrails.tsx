@@ -424,7 +424,7 @@ export const AuditTrails: React.FC = () => {
                   </div>
                 )}
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-slate-400 uppercase tracking-wider mb-1">Full Name</label>
                     <input
@@ -450,7 +450,7 @@ export const AuditTrails: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-slate-400 uppercase tracking-wider mb-1">Surveillance Role</label>
                     <select
@@ -541,7 +541,7 @@ export const AuditTrails: React.FC = () => {
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-slate-400 uppercase tracking-wider mb-1">Client Authority</label>
                     <input
